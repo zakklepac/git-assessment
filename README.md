@@ -26,11 +26,11 @@ git remote add origin example@github.com:{userName}/{repoName}.git
 Explain and be able to do the following:
 
 - Fork and Clone
-- `git add`
-- `git push`
-- `git commit -m 'some message'`
-- `git push origin master`
-- `git remote -v`
-- `git status`
-- `git remote add [remote url here] `
-- `git remote remove origin`
+- `git add` - adds a git to a repository
+- `git push` - adds a local revision of a git to a remote repository
+- `git commit -m 'some message'` -commit changes to a repository
+- `git push origin master` pushes the root branch of a repository
+- `git remote -v`allows you to pull a remote git via URL
+- `git status` - allows you to see any saved or pending staged changes
+- `git remote add [remote url here] ` -adds git to a remote repository
+- `git remote remove origin` - removes git from a remote repository
